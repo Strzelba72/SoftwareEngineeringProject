@@ -43,11 +43,11 @@ Wyzwalacze: Użytkownik po uruchomieniu aplikacji klika przycisk odpowiedzialny 
 Opis: Użytkownik po uruchomieniu aplikacji, musi zalogować się na swoje konto w celu korzystania ze wszystkich funkcjonalności aplikacji. <br/>
 Warunki początkowe: Użytkownik wyraził chęć zalogowania się. <br/>
 Warunki końcowe: Użytkownikowi udało pomyślnie się zalogować. <br/>
-Scenariusz główny:
+Scenariusz główny:<pre>
  1.Użytkownik wybiera opcję zalogowania się.
  2.Wprowadza swoje dane logowania.
  3.System sprawdza poprawność wprowadzonych danych.
- 4.Gracze zostaje zalogowany i przekierowany do menu gracza.
+ 4.Gracze zostaje zalogowany i przekierowany do menu gracza.</pre>
 </p>
 Wyjątki:<br/>
 <pre>
