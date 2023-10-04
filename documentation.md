@@ -1,4 +1,4 @@
-<h1><b>Gwont - specyfikacja wymagań</b></h1>
+![image](https://github.com/Strzelba72/SoftwareEngineeringProject/assets/115944998/15dd4a8b-5cfa-4323-b9e9-6d82908627f2)<h1><b>Gwont - specyfikacja wymagań</b></h1>
 
 | Wersja      | Data utwprzenia | Data ost. modyfikacji | Autorzy                                                          |
 | ----------- | --------------- | --------------------- | ---------------------------------------------------------------- |
@@ -27,11 +27,12 @@
 <i>Obiekt reprezentujący jednostkę :</i></br>
 * Punkty
 
-<b>Talia</b>
+<b>Talia</b><br/>
 <i>Obiekt reprezentujący zbiór kart w ręce gracza:</i>\
 * Wielkośćć
 
 <h1><b>4. Diagram kontekstu</b></h1>
+![image](https://github.com/Strzelba72/SoftwareEngineeringProject/assets/115944998/783ba47a-8be4-4750-8fbf-d1b1043c57a6)
 
 
 <h1><b>5. Wymagania funkcjonalne</b></h1>
