@@ -44,18 +44,18 @@ Opis: Użytkownik po uruchomieniu aplikacji, musi zalogować się na swoje konto
 Warunki początkowe: Użytkownik wyraził chęć zalogowania się. <br/>
 Warunki końcowe: Użytkownikowi udało pomyślnie się zalogować. <br/>
 Scenariusz główny:
-1. Użytkownik wybiera opcję zalogowania się.
-2.  Wprowadza swoje dane logowania.
-3. System sprawdza poprawność wprowadzonych danych.
-4. Gracze zostaje zalogowany i przekierowany do menu gracza.
+ 1.Użytkownik wybiera opcję zalogowania się.
+ 2.Wprowadza swoje dane logowania.
+ 3.System sprawdza poprawność wprowadzonych danych.
+ 4.Gracze zostaje zalogowany i przekierowany do menu gracza.
 </p>
 Wyjątki:<br/>
-	1. Operacja logowania użytkownika się nie powiodła w wyniku wprowadzenia złych danych.<br/>
-		1.1.  System informuje użytkownika /y o nie wprowadzeniu błędnych danych.<br/>
-		1.2.  Powrót do kroku 2.<br/>
-2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.<br/>
-	2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.<br/>
-	2.2.  Wyłączenie aplikacji.<br/>
+ 1. Operacja logowania użytkownika się nie powiodła w wyniku wprowadzenia złych danych.<br/>
+  1.1.  System informuje użytkownika /y o nie wprowadzeniu błędnych danych.<br/>
+  1.2.  Powrót do kroku 2.<br/>
+ 2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.<br/>
+  2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.<br/>
+  2.2.  Wyłączenie aplikacji.<br/>
 
 <p><b>WF02: Rejestrowanie konta</b><br/>
 Aktorzy główni: Gracz<br/>
