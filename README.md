@@ -1,13 +1,13 @@
-# Nazwa Projektu
+# Gwont
 
 Opis krótki projektu i jego celu.
 
 ## Spis treści
 
-- [Opis](#opis)
-- [Instalacja](#instalacja)
+- Opis
+- Instalacja 
 - [Dokumentacja](documentation.md)
-- [Autorzy](Mikołaj Strzelczyk, Jordan Szymański, Kacper Ciążyński)
+- Autorzy  (Mikołaj Strzelczyk, Jordan Szymański, Kacper Ciążyński)
 
 
 ## Opis
