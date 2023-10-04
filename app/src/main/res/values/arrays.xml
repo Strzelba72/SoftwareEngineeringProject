@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fraction_1_card_images">
+        <item>fraction1Image1</item>
+        <item>fraction1Image2</item>
+        <item>fraction1Image3</item>
+        <item>fraction1Image4</item>
+        <item>fraction1Image5</item>
+        <item>fraction1Image6</item>
+        <item>fraction1Image7</item>
+        <item>fraction1Image8</item>
+        <item>fraction1Image9</item>
+        <item>fraction1Image10</item>
+        <item>fraction1Image11</item>
+        <item>fraction1Image12</item>
+        <item>fraction1Image13</item>
+        <item>fraction1Image14</item>
+        <item>fraction1Image15</item>
+        <item>fraction1Image16</item>
+        <item>fraction1Image17</item>
+        <item>fraction1Image18</item>
+        <item>fraction1Image19</item>
+        <item>fraction1Image20</item>
+        <item>fraction1Image21</item>
+        <item>fraction1Image22</item>
+        <item>fraction1Image23</item>
+        <item>fraction1Image24</item>
+        <item>fraction1Image25</item>
+
+
+    </string-array>
+
+    <integer-array name="fraction_1_card_strengths">
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>7</item>
+        <item>7</item>
+
+
+    </integer-array>
+</resources>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board_background"
+    tools:context=".BoardFragment">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="208dp"
+        android:src="@drawable/card_flamingo"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/playerCard1"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/playerCard2"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard3"
+        app:layout_constraintStart_toEndOf="@+id/playerCard1" />
+
+    <ImageView
+        android:id="@+id/playerCard3"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard4"
+        app:layout_constraintStart_toEndOf="@+id/playerCard2" />
+
+    <ImageView
+        android:id="@+id/playerCard4"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard5"
+        app:layout_constraintStart_toEndOf="@+id/playerCard3" />
+
+    <ImageView
+        android:id="@+id/playerCard5"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard6"
+        app:layout_constraintStart_toEndOf="@+id/playerCard4" />
+
+    <ImageView
+        android:id="@+id/playerCard6"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard7"
+        app:layout_constraintStart_toEndOf="@+id/playerCard5" />
+
+    <ImageView
+        android:id="@+id/playerCard7"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard8"
+        app:layout_constraintStart_toEndOf="@+id/playerCard6" />
+
+    <ImageView
+        android:id="@+id/playerCard8"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerCard9"
+        app:layout_constraintStart_toEndOf="@+id/playerCard7" />
+
+    <ImageView
+        android:id="@+id/playerCard9"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playerCard8" />
+
+    <ImageView
+        android:id="@+id/enemyCard1"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard2"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard3"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard3"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard4"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard4"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard5"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard5"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard6"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard6"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard7"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard7"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard8"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard8"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/enemyCard9"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/enemyCard9"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-30dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_rewers"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/enemyCard8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="PASS"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/card_flamingo"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/playerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="160dp"
+        android:text="Wynik: 0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/enemyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        android:text="Wynik: 0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
