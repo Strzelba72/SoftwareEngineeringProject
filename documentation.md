@@ -167,7 +167,7 @@ Cel sprintu: Zarządzanie przejściami i eventami poprzez wykorzystanie binding�
 <p><b>Sprint 4:</b> <br/>
 Data rozpoczęcia: 30.05.2023<br/>
 Data zakończenia: 04.06.2023<br/>
-Cel sprintu: Uruchomienie środowiska, stworzenie podstawowych layotów projektu oraz dodanie logowania wraz z rejestracją<br/>
+Cel sprintu: Stworzenie rozgrywnki, poprawa błędów, optymalizacja rozgrywki<br/>
 <br/>
 <br/>
 <br/>
