@@ -110,17 +110,17 @@ Scenariusz główny: <br/><pre>
 
 <h1><b>6. Wymagania pozafunkcjonalne</b></h1>
  
-NFR1: Zabezpieczenia - hasła
+<p><b>NFR1: Zabezpieczenia - hasła</b></p>
 System wymusza na użytkownikach stosowanie haseł o długości min. 6 znaków i wykorzystujących min. jedną wielką literę, jedną cyfrę i jeden znak specjalny. Hasła w bazie danych są przechowywane w sposób szyfrowany.
  
-NFR2: Charakterystyka czasowa
+<p><b>NFR2: Charakterystyka czasowa</b></p>`
 Średni czas odpowiedzi systemu na wykonaną akcję użytkownika (wyświetlenie listy z ogłoszeniami lub dodanie nowego ogłoszenia) ma być nie większy niż 10 sekundy, czas odpowiedzi systemu przy maksymalnym obciążeniu nie przekracza 20 sekund.
 Ponadto dla 100 wykonanych równocześnie zapytań w systemie dotyczących wyświetlania strony z listą ogłoszeń, średni czas obsługi takiego zapytania powinien być nie dłuższy niż
 15 sekund, natomiast maksymalny czas obsługi takiego zapytania to 30 sekund.
 Powyższa charakterystyka czasowa powinna być spełniona przy następujących założeniach:
-•      	Serwer dedykowany o następujących parametrach: procesor serwerowy Amd 1,8 GHz 16 Cores , pamięć 64GB DDR4 (4x16GB), dysk serwerowy NVME lub SAS o pojemności minimum 1 TB
-•      	Połączenie internetowe użytkownika o przepustowości min. 512 Kb/s
-•      	Dane czasowe zakładają użycie zasobów serwera tylko na potrzeby platformy, uruchomione inne usługi na serwerze mogą spowodować ograniczenie zasobów
+*Serwer dedykowany o następujących parametrach: procesor serwerowy Amd 1,8 GHz 16 Cores , pamięć 64GB DDR4 (4x16GB), dysk serwerowy NVME lub SAS o pojemności minimum 1 TB
+*Połączenie internetowe użytkownika o przepustowości min. 512 Kb/s
+*Dane czasowe zakładają użycie zasobów serwera tylko na potrzeby platformy, uruchomione inne usługi na serwerze mogą spowodować ograniczenie zasobów
 
 Poniżej zaprezentowano standardowe wymagania pozafunkcjonalne, które mogą się przydać.
 NFR01: System musi być wygodny w użyciu na ekranach urządzeń mobilnych o minimalnej szerokości 800 pikseli.
