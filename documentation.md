@@ -93,20 +93,20 @@ Scenariusz główny: </p><pre>
 <pre>Wyjątki:
 1.Operacja dobierania gracza się nie powiodła.
  1.1. System informuje gracza/y o nie możliwości zestawienia połączenia.
- 1.2. Powrót gracza/y do menu.</pre>pre>
+ 1.2. Powrót gracza/y do menu.</pre>
 
-WF04: Zakończenie sesji rozgrywki
-Aktorzy główni :  Gracz
-Poziom: Użytkownika
-Wyzwalacze: Rozgrywka w sesji zostaje zakończona.
-Opis: Rozgrywka pomiędzy graczami została zakończona.
-Warunki początkowe: Jeden z graczy przegrał
-Warunki końcowe: Gracze zostali przekierowani do menu gracza, a wynik rozgrywki został zapisany na serwerze..
-Scenariusz główny: 
-Sesja sygnalizuje koniec rozgrywki.
-System informuje graczy o zakończeniu rozgrywki.
-Gracze zostają przekierowani do menu gracza.
-Wynik rozgrywki zostaje zapisany na serwerze.
+<p><b>WF04: Zakończenie sesji rozgrywki</b><br/>
+Aktorzy główni: Gracz<br/>
+Poziom: Użytkownika<br/>
+Wyzwalacze: Rozgrywka w sesji zostaje zakończona.<br/>
+Opis: Rozgrywka pomiędzy graczami została zakończona.<br/>
+Warunki początkowe: Jeden z graczy przegrał<br/>
+Warunki końcowe: Gracze zostali przekierowani do menu gracza, a wynik rozgrywki został zapisany na serwerze.<br/>
+Scenariusz główny: <br/><pre>
+1.Sesja sygnalizuje koniec rozgrywki.
+2.System informuje graczy o zakończeniu rozgrywki.
+3.Gracze zostają przekierowani do menu gracza.
+4.Wynik rozgrywki zostaje zapisany na serwerze.</pre>
 
 
 6. Wymagania pozafunkcjonalne
