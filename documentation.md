@@ -56,7 +56,7 @@ Wyjątki:<br/>
   1.2.  Powrót do kroku 2.
  2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.
   2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.
-  2.2.  Wyłączenie aplikacji.</pre>
+  2.2.  Wyłączenie aplikacji.</pre><br/>
 
 <p><b>WF02: Rejestrowanie konta</b><br/>
 Aktorzy główni: Gracz<br/>
@@ -77,7 +77,7 @@ Wyjątki:<br/><pre>
  1.2.  Powrót do kroku 2.
 2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.
  2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.
- 2.2.  Wyłączenie aplikacji</pre>
+ 2.2.  Wyłączenie aplikacji</pre><br/>
 <p><b>WF03: Rozpoczynanie rozgrywki</b><br/>
 Aktorzy główni: Gracz<br/>
 Poziom: Użytkownika<br/>
@@ -93,7 +93,7 @@ Scenariusz główny: </p><pre>
 Wyjątki:<pre>
 1.Operacja dobierania gracza się nie powiodła.
  1.1. System informuje gracza/y o nie możliwości zestawienia połączenia.
- 1.2. Powrót gracza/y do menu.</pre>
+ 1.2. Powrót gracza/y do menu.</pre><br/>
 
 <p><b>WF04: Zakończenie sesji rozgrywki</b><br/>
 Aktorzy główni: Gracz<br/>
@@ -108,13 +108,12 @@ Scenariusz główny: <br/><pre>
 3.Gracze zostają przekierowani do menu gracza.
 4.Wynik rozgrywki zostaje zapisany na serwerze.</pre>
 
-
-6. Wymagania pozafunkcjonalne
+<h1><b>6. Wymagania pozafunkcjonalne</b></h1>
  
-   NFR1: Zabezpieczenia - hasła
+NFR1: Zabezpieczenia - hasła
 System wymusza na użytkownikach stosowanie haseł o długości min. 6 znaków i wykorzystujących min. jedną wielką literę, jedną cyfrę i jeden znak specjalny. Hasła w bazie danych są przechowywane w sposób szyfrowany.
  
-   NFR2: Charakterystyka czasowa
+NFR2: Charakterystyka czasowa
 Średni czas odpowiedzi systemu na wykonaną akcję użytkownika (wyświetlenie listy z ogłoszeniami lub dodanie nowego ogłoszenia) ma być nie większy niż 10 sekundy, czas odpowiedzi systemu przy maksymalnym obciążeniu nie przekracza 20 sekund.
 Ponadto dla 100 wykonanych równocześnie zapytań w systemie dotyczących wyświetlania strony z listą ogłoszeń, średni czas obsługi takiego zapytania powinien być nie dłuższy niż
 15 sekund, natomiast maksymalny czas obsługi takiego zapytania to 30 sekund.
