@@ -32,6 +32,7 @@
 * Wielkośćć
 
 <h1><b>4. Diagram kontekstu</b></h1>
+![image](https://github.com/Strzelba72/SoftwareEngineeringProject/assets/115944998/e11d112e-cb5f-4162-9143-875f29d1af42)
 
 
 <h1><b>5. Wymagania funkcjonalne</b></h1>
