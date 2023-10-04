@@ -71,29 +71,29 @@ Wprowadza swoje dane logowania - email, login, hasło.<br/>
 System sprawdza poprawność i unikalność wprowadzonych danych.<br/>
 Konto zostaje utworzone.<br/>
 Użytkownik zostaje poinformowany o utworzeniu konta i przekierowany do panelu logowania.</p>
-Wyjątki:<br/>
-	1. Operacja rejestracji konta użytkownika się nie powiodła w wyniku wprowadzenia złych danych.<br/>
-		1.1.  System informuje użytkownika /y o nie wprowadzeniu błędnych danych.<br/>
-		1.2.  Powrót do kroku 2.<br/>
-2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.<br/>
-	2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.<br/>
-	2.2.  Wyłączenie aplikacji<br/>
-WF03: Rozpoczynanie rozgrywki
-Aktorzy główni :  Gracz
-Poziom: Użytkownika
-Wyzwalacze: Dwóch graczy chce dołączyć do rozgrywki.
-Opis: Użytkownik próbuje dołączyć do rozgrywki z drugim graczem.
-Warunki początkowe: W tym samym czasie co najmniej dwóch użytkowników musi szukać rozgrywki.
-Warunki końcowe: Gracze zostali sparowani i przekierowani do wspólnej sesji rozgrywki.
-Scenariusz główny: 
-Gracz sygnalizuje chęć rozpoczęcia rozgrywki.
-System sprawdza ilość dostępnych graczy o takim samym statusie.
-System dobiera drugiego gracza, priorytetyzując graczy oczekujących najdłużej.
-Gracze zostają przekierowani do wspólnej sesji rozgrywki.
-Wyjątki:
-	1.Operacja dobierania gracza się nie powiodła.
-		1.1. System informuje gracza/y o nie możliwości zestawienia połączenia.
-		1.2. Powrót gracza/y do menu.
+Wyjątki:<br/><pre>
+1. Operacja rejestracji konta użytkownika się nie powiodła w wyniku wprowadzenia złych danych.
+ 1.1.  System informuje użytkownika /y o nie wprowadzeniu błędnych danych.
+ 1.2.  Powrót do kroku 2.
+2. Operacja logowania użytkownika nie powiodła się w wyniku braku połączenia z serwerem.
+ 2.1.  System informuje użytkownika /y o nie niemożności nawiązania połączenia z serwerem.
+ 2.2.  Wyłączenie aplikacji</pre>
+<p><b>WF03: Rozpoczynanie rozgrywki</b><br/>
+Aktorzy główni: Gracz<br/>
+Poziom: Użytkownika<br/>
+Wyzwalacze: Dwóch graczy chce dołączyć do rozgrywki.<br/>
+Opis: Użytkownik próbuje dołączyć do rozgrywki z drugim graczem.<br/>
+Warunki początkowe: W tym samym czasie co najmniej dwóch użytkowników musi szukać rozgrywki.<br/>
+Warunki końcowe: Gracze zostali sparowani i przekierowani do wspólnej sesji rozgrywki.<br/>
+Scenariusz główny: </p><pre>
+1.Gracz sygnalizuje chęć rozpoczęcia rozgrywki.
+2.System sprawdza ilość dostępnych graczy o takim samym statusie.
+3.System dobiera drugiego gracza, priorytetyzując graczy oczekujących najdłużej.
+4.Gracze zostają przekierowani do wspólnej sesji rozgrywki.</pre><br/>
+<pre>Wyjątki:
+1.Operacja dobierania gracza się nie powiodła.
+ 1.1. System informuje gracza/y o nie możliwości zestawienia połączenia.
+ 1.2. Powrót gracza/y do menu.</pre>pre>
 
 WF04: Zakończenie sesji rozgrywki
 Aktorzy główni :  Gracz
