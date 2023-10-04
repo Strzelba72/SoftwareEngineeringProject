@@ -1,4 +1,4 @@
-![image](https://github.com/Strzelba72/SoftwareEngineeringProject/assets/115944998/15dd4a8b-5cfa-4323-b9e9-6d82908627f2)<h1><b>Gwont - specyfikacja wymagań</b></h1>
+<h1><b>Gwont - specyfikacja wymagań</b></h1>
 
 | Wersja      | Data utwprzenia | Data ost. modyfikacji | Autorzy                                                          |
 | ----------- | --------------- | --------------------- | ---------------------------------------------------------------- |
