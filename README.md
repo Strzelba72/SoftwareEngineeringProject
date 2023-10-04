@@ -6,7 +6,7 @@ Opis krótki projektu i jego celu.
 
 - [Opis](#opis)
 - [Instalacja](#instalacja)
-- [Dokumentacja](#dokumentacja)
+- [Dokumentacja](documentation.md)
 - [Autorzy](Mikołaj Strzelczyk, Jordan Szymański, Kacper Ciążyński)
 
 
