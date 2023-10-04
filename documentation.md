@@ -113,27 +113,26 @@ Scenariusz główny: <br/><pre>
 <p><b>NFR1: Zabezpieczenia - hasła</b></p>
 System wymusza na użytkownikach stosowanie haseł o długości min. 6 znaków i wykorzystujących min. jedną wielką literę, jedną cyfrę i jeden znak specjalny. Hasła w bazie danych są przechowywane w sposób szyfrowany.
  
-<p><b>NFR2: Charakterystyka czasowa</b></p>`
+<p><b>NFR2: Charakterystyka czasowa</b></p>
 Średni czas odpowiedzi systemu na wykonaną akcję użytkownika (wyświetlenie listy z ogłoszeniami lub dodanie nowego ogłoszenia) ma być nie większy niż 10 sekundy, czas odpowiedzi systemu przy maksymalnym obciążeniu nie przekracza 20 sekund.
 Ponadto dla 100 wykonanych równocześnie zapytań w systemie dotyczących wyświetlania strony z listą ogłoszeń, średni czas obsługi takiego zapytania powinien być nie dłuższy niż
 15 sekund, natomiast maksymalny czas obsługi takiego zapytania to 30 sekund.
 Powyższa charakterystyka czasowa powinna być spełniona przy następujących założeniach:
-*Serwer dedykowany o następujących parametrach: procesor serwerowy Amd 1,8 GHz 16 Cores , pamięć 64GB DDR4 (4x16GB), dysk serwerowy NVME lub SAS o pojemności minimum 1 TB
-*Połączenie internetowe użytkownika o przepustowości min. 512 Kb/s
-*Dane czasowe zakładają użycie zasobów serwera tylko na potrzeby platformy, uruchomione inne usługi na serwerze mogą spowodować ograniczenie zasobów
+* Serwer dedykowany o następujących parametrach: procesor serwerowy Amd 1,8 GHz 16 Cores , pamięć 64GB DDR4 (4x16GB), dysk serwerowy NVME lub SAS o pojemności minimum 1 TB
+* Połączenie internetowe użytkownika o przepustowości min. 512 Kb/s
+* Dane czasowe zakładają użycie zasobów serwera tylko na potrzeby platformy, uruchomione inne usługi na serwerze mogą spowodować ograniczenie zasobów
 
 Poniżej zaprezentowano standardowe wymagania pozafunkcjonalne, które mogą się przydać.
-NFR01: System musi być wygodny w użyciu na ekranach urządzeń mobilnych o minimalnej szerokości 800 pikseli.
-NFR02: System musi być zgodny z rozporządzeniem RODO w zakresie pseudonimizacji danych osobowych użytkowników systemu.
-NFR03: Architektura systemu musi być gotowa na obsługę wielu rodzajów klientów
-(np. aplikację mobilną) poprzez zastosowanie usług sieciowych według protokołu REST.
-NFR04: System musi wspierać wyświetlanie oraz uzupełnianie tekstów w różnych językach (internacjonalizacja).
-NFR05: Jednoznacznym, unikalnym identyfikatorem użytkowników w systemie jest adres e-mail.
-NFR06: System musi być kompatybilny z następującymi systemem:
-Android 7.0 lub wyższym
+<p><b>NFR01: System musi być wygodny w użyciu na ekranach urządzeń mobilnych o minimalnej szerokości 800 pikseli.</b></p>
+<p><b>NFR02: System musi być zgodny z rozporządzeniem RODO w zakresie pseudonimizacji danych osobowych użytkowników systemu.</b></p>
+<p><b>NFR03: Architektura systemu musi być gotowa na obsługę wielu rodzajów klientów
+(np. aplikację mobilną) poprzez zastosowanie usług sieciowych według protokołu REST.</b></p>
+<p><b>NFR04: System musi wspierać wyświetlanie oraz uzupełnianie tekstów w różnych językach (internacjonalizacja).</b></p>
+<p><b>NFR05: Jednoznacznym, unikalnym identyfikatorem użytkowników w systemie jest adres e-mail.</b></p>
+<p><b>NFR06: System musi być kompatybilny z następującymi systemem: Android 7.0 lub wyższym</b></p>
 
-NFR07: System wymusza na użytkownikach stosowanie haseł o długości min. 6 znaków
-i  wykorzystujących co najmniej jedną wielką literę, jedną cyfrę i jeden znak specjalny.
+<p><b>NFR07: System wymusza na użytkownikach stosowanie haseł o długości min. 6 znaków
+i  wykorzystujących co najmniej jedną wielką literę, jedną cyfrę i jeden znak specjalny. </b></p>
 
 <h1><b>Harmonogram prac</b></h1>
 <p>Praca nad projektem odbywała się przy wykorzystaniu zwinmnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności</p>
