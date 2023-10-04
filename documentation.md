@@ -90,7 +90,7 @@ Scenariusz główny: </p><pre>
 2.System sprawdza ilość dostępnych graczy o takim samym statusie.
 3.System dobiera drugiego gracza, priorytetyzując graczy oczekujących najdłużej.
 4.Gracze zostają przekierowani do wspólnej sesji rozgrywki.</pre><br/>
-<pre>Wyjątki:
+Wyjątki:<pre>
 1.Operacja dobierania gracza się nie powiodła.
  1.1. System informuje gracza/y o nie możliwości zestawienia połączenia.
  1.2. Powrót gracza/y do menu.</pre>
