@@ -7,7 +7,7 @@
 <h1><b>1. Ogólne informacje</b></h1>
 
 <h2><b>1.1 Opis systemu</b></h2>
-<i>Gra polegająca na starciach dwóch graczy, używających skompletowanych talii kart. Każdy z graczy losuje karty ze swojej talii na początku rozgrywki, a jego zadaniem jest wygranie 2 rund z 3, poprzez uzyskanie w danej rundzie większej liczby punktów niż przeciwnik. Punkty uzyskuje się z</i>
+<i>Gra polegająca na starciach dwóch graczy w grze, w wojnę, używających rozlosowanych talii kart. Gra odbywa się turowo, na początku każdej tury graczy wybiera karte do wyłożenia, po czym drugi gracz robi to samo. Obaj gracze nie widzą kart w swoich taliach, anie tych wyłożonych na środek, do czasu zakończenia swoich ruchów</i>
 
 <h2><b>1.2 Odbiorcy docelowi</b></h2>
 <i>Użytkownicy smartphonów opartych na systemie Android.</i>
@@ -135,12 +135,12 @@ Poniżej zaprezentowano standardowe wymagania pozafunkcjonalne, które mogą si�
 i  wykorzystujących co najmniej jedną wielką literę, jedną cyfrę i jeden znak specjalny. </b></p>
 
 <h1><b>Harmonogram prac</b></h1>
-<p>Praca nad projektem odbywała się przy wykorzystaniu zwinmnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności. Przed każdym spotkaniem odbywało się krótkie daily, na którym omawialiśmy co zrobiliśmy, co robimy i co będziemy robić</p>
+<p>Praca nad projektem odbywała się przy wykorzystaniu zwinnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności. Przed każdym spotkaniem odbywało się krótkie daily, na którym omawialiśmy co zrobiliśmy, co robimy i co będziemy robić</p>
 
 <p><b>Sprint 1:</b> <br/>
 Data rozpoczęcia: 29.05.2023<br/>
 Data zakończenia: 02.06.2023<br/>
-Cel sprintu: Uruchomienie środowiska, stworzenie podstawowych layotów projektu oraz grafik<br/>
+Cel sprintu: Uruchomienie środowiska, stworzenie podstawowych layotów projektu oraz grafik <br/>
 <b>Uruchomienie środowiska</b><br/>
 Osoba odpowiedzialna: Mikołaj Strzelczyk, Jordan Szymański<br/>
 Szacowany czas wykonania: 10h<br/>
