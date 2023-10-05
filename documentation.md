@@ -135,7 +135,7 @@ Poniżej zaprezentowano standardowe wymagania pozafunkcjonalne, które mogą si�
 i  wykorzystujących co najmniej jedną wielką literę, jedną cyfrę i jeden znak specjalny. </b></p>
 
 <h1><b>Harmonogram prac</b></h1>
-<p>Praca nad projektem odbywała się przy wykorzystaniu zwinmnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności</p>
+<p>Praca nad projektem odbywała się przy wykorzystaniu zwinmnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności. Przed każdym spotkaniem odbywało się krótkie daily, na którym omawialiśmy co zrobiliśmy, co robimy i co będziemy robić</p>
 
 <p><b>Sprint 1:</b> <br/>
 Data rozpoczęcia: 30.05.2023<br/>
@@ -147,8 +147,8 @@ Cel sprintu: Uruchomienie środowiska, stworzenie podstawowych layotów projektu
 </p>
 
 <p><b>Sprint 2:</b> <br/>
-Data rozpoczęcia: 30.05.2023<br/>
-Data zakończenia: 04.06.2023<br/>
+Data rozpoczęcia: 11.09.2023<br/>
+Data zakończenia: 15.09.2023<br/>
 Cel sprintu: Dodanie funkcjonalności logowania i rejestracji, ustawienie nawikacji pomiędzy fragmentami<br/>
 <br/>
 <br/>
@@ -156,9 +156,9 @@ Cel sprintu: Dodanie funkcjonalności logowania i rejestracji, ustawienie nawika
 </p>
 
 <p><b>Sprint 3:</b> <br/>
-Data rozpoczęcia: 30.05.2023<br/>
-Data zakończenia: 04.06.2023<br/>
-Cel sprintu: Zarządzanie przejściami i eventami poprzez wykorzystanie bindingów <br/>
+Data rozpoczęcia: 18.09.2023<br/>
+Data zakończenia: 22.09.2023<br/>
+Cel sprintu: Zarządzanie przejściami i eventami poprzez wykorzystanie bindingów. <br/>
 <br/>
 <br/>
 <br/>
