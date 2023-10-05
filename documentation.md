@@ -138,39 +138,75 @@ i  wykorzystujących co najmniej jedną wielką literę, jedną cyfrę i jeden z
 <p>Praca nad projektem odbywała się przy wykorzystaniu zwinmnych metod zarządzania projektem. Pracowaliśmy w kilku sprintach, gdzie w każdym planowaliśmy, dodawaliśmy i testowaliśmy nowe funkcjonalności. Przed każdym spotkaniem odbywało się krótkie daily, na którym omawialiśmy co zrobiliśmy, co robimy i co będziemy robić</p>
 
 <p><b>Sprint 1:</b> <br/>
-Data rozpoczęcia: 30.05.2023<br/>
-Data zakończenia: 04.06.2023<br/>
+Data rozpoczęcia: 29.05.2023<br/>
+Data zakończenia: 02.06.2023<br/>
 Cel sprintu: Uruchomienie środowiska, stworzenie podstawowych layotów projektu oraz grafik<br/>
-<br/>
-<br/>
-<br/>
+<b>Uruchomienie środowiska</b><br/>
+Osoba odpowiedzialna: Mikołaj Strzelczyk, Jordan Szymański<br/>
+Szacowany czas wykonania: 10h<br/>
+Priorytet: wysoki <br/>
+
+<b>Utworzenie podstawowych layoutów projektu</b><br/>
+Osoba odpowiedzialna: Kacper Ciążyński, Mikołaj Strzelczyk, Jordan Szymański<br/>
+Szacowany czas wykonania: 12h<br/>
+Priorytet: wysoki <br/>
+
+<b>Stworzenie grafik</b><br/>
+Osoba odpowiedzialna: Kacper Ciążyński<br/>
+Szacowany czas wykonania: 10h<br/>
+Priorytet: średni <br/>
 </p>
 
 <p><b>Sprint 2:</b> <br/>
-Data rozpoczęcia: 11.09.2023<br/>
-Data zakończenia: 15.09.2023<br/>
-Cel sprintu: Dodanie funkcjonalności logowania i rejestracji, ustawienie nawikacji pomiędzy fragmentami<br/>
-<br/>
-<br/>
-<br/>
+Data rozpoczęcia: 12.06.2023<br/>
+Data zakończenia: 16.06.2023<br/>
+Cel sprintu: Dodanie funkcjonalności logowania i rejestracji, ustawienie nawigacji pomiędzy fragmentami<br/>
+<b>Dodanie funkcjonalności logowania i rejestracji</b><br/>
+Osoba odpowiedzialna: Jordan Szymański, Kacper Ciążyński<br/>
+Szacowany czas wykonania: 14h<br/>
+Priorytet: średni <br/>
+
+<b>Ustawienie nawigacji pomiędzy fragmentami</b><br/>
+Osoba odpowiedzialna: Mikołaj Strzelczyk<br/>
+Szacowany czas wykonania: 8h<br/>
+Priorytet: wysoki <br/>
 </p>
 
 <p><b>Sprint 3:</b> <br/>
 Data rozpoczęcia: 18.09.2023<br/>
 Data zakończenia: 22.09.2023<br/>
-Cel sprintu: Zarządzanie przejściami i eventami poprzez wykorzystanie bindingów. <br/>
-<br/>
-<br/>
-<br/>
+Cel sprintu: Zarządzanie przejściami i eventami poprzez wykorzystanie bindingów.<br/>
+
+<b>Zarządzanie przejściami i eventami poprzez wykorzystanie bindingów</b><br/>
+Osoba odpowiedzialna: Mikołaj Strzelczyk, Jordan Szymański<br/>
+Szacowany czas wykonania: 18h<br/>
+Priorytet: wysoki <br/>
 </p>
 
 <p><b>Sprint 4:</b> <br/>
-Data rozpoczęcia: 30.05.2023<br/>
-Data zakończenia: 04.06.2023<br/>
-Cel sprintu: Stworzenie rozgrywnki, poprawa błędów, optymalizacja rozgrywki<br/>
-<br/>
-<br/>
-<br/>
+Data rozpoczęcia: 25.09.2023<br/>
+Data zakończenia: 29.09.2023<br/>
+Cel sprintu: Stworzenie mechanik rozgrywnki, poprawa błędów, optymalizacja rozgrywki, uzupełnienie dokumentacji<br/>
+
+<b>Stworzenie mechanik rozgrywnki</b><br/>
+Osoba odpowiedzialna: Jordan Szymański<br/>
+Szacowany czas wykonania: 8h<br/>
+Priorytet: wysoki <br/>
+
+<b>Poprawa błędów</b><br/>
+Osoba odpowiedzialna: Mikołaj Strzelczyk, Jordan Szymański, Kacper Ciążyński<br/>
+Szacowany czas wykonania: 12h<br/>
+Priorytet: wysoki <br/>
+
+<b>Optymalizacja rozgrywki</b><br/>
+Osoba odpowiedzialna: Mikołaj Strzelczyk<br/>
+Szacowany czas wykonania: 8h<br/>
+Priorytet: średni <br/>
+
+<b>Uzupełnienie dokumentacji</b><br/>
+Osoba odpowiedzialna: Kacper Ciążyński<br/>
+Szacowany czas wykonania: 8h<br/>
+Priorytet: niski <br/>
 </p>
 
 
